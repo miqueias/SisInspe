@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.android/build-cache/052a1b724d53f0b38a10c402f7ace030897fd08d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3a724d5d031884220bae4a255f6d2763cd0ebdc4">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_38059beb41346fede078c9965f8360cd49a8c872/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.15/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ef01b734d9d89338a932928c237c7b741f007af">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.15_76a68c151ead786502f8a5fa8ffac1f618cfe030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.11/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cfa40983f47c1b9a9f2ac940ee6da130cd03c6e1">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.11_04773deceb99166b0516afec0e73bbc7b52c2b3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_3b1a70e9b18a0577e7c13cc7ea11174f2dca5509.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_d1872fa8c54d633932d4f42c3fe75024afe93740.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.5/686c608d1805b6d4d425ec4459e88164ffc85870/gson-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.5_fb996519b5add24c1a1bf3ff2cca9602b4319274/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_bb540e5fd43756746b7efbbea76b5425d3330fff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_d04b81efbb3ae5bb3cf3461be4f3778451d155f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.5/686c608d1805b6d4d425ec4459e88164ffc85870/gson-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/gson-2.5_fb996519b5add24c1a1bf3ff2cca9602b4319274.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_f315b718c02b3efa84cd3a61a5456414f1df211a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/smokeproject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38298e67dac6a3de919f71a05298c8649d8b0b3a">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_21b9df66633e55ef32bdfa1a443ca97d64c7bd84/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_7665fc5eccdf23751f06d7e187a8eceaaf2f6fd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a76b07a416089228adc86fecc86d0a6e2d71e409">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.2.3_dc2b1f684c641f1b5ea5a7dd2690ae2474f6a589.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_9225a8aaeb6dd47fe4e585682e1beaf6d155ade1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.android/build-cache/309873f1915943afe71b2e9e173097db4d979765/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a76b07a416089228adc86fecc86d0a6e2d71e409">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_272e052f1eecd5be40cb19d4c9ff28cd70b88c68/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4d622b11a2b5e456d1b7b802517e7a7f685ef0c3">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_21b9df66633e55ef32bdfa1a443ca97d64c7bd84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/id.zelory/compressor/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3a724d5d031884220bae4a255f6d2763cd0ebdc4">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/id.zelory-compressor-1.0.4_0e5afa26b46520ee273872430eb7799eb634988e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.android/build-cache/c315fbdabdea6ca334dc926b8cc2169b1754bcca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7780b9aba418f4e22878f48cd77372a7688bb0b7">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ead9a17344c3c236800176da8eddd003b6b047f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_8ecce2267b470ec8f548772228bfdb8b6fe072b0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_9f5237e591f782053e05d98a8a9889f17156d32f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/smokeproject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_776cd1917aa384ae4eeef4db4694654c6a5a1741/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.6/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7780b9aba418f4e22878f48cd77372a7688bb0b7">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.6.6_d2fc0e3cc6671d5c1450a7594c329cf59a2554a6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.android/build-cache/471ae82aedc2a5eea64f57518abc72ab851b912c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4803488041c259d0b6d81ca4255379ab8a7e8dfe">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8df359df8df0fb3572bc49f41c6a344975608900/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_9f5237e591f782053e05d98a8a9889f17156d32f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_dd9c6765e470d36aad3743096600e2d3b953343f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.android/build-cache/243d5ed43571c61de84ee82facb182f41159d8f5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c871a9308bc236fe80ac9e3c5d5637f0d0863613/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.android/build-cache/9219779cf9142fc7bcdad93b4cb2fd0d2261dd8a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cfa40983f47c1b9a9f2ac940ee6da130cd03c6e1">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7bb15d8ba478034af5cb27893843385db8b89ef2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.15/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4803488041c259d0b6d81ca4255379ab8a7e8dfe">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.15_f50aec50182b4ece341917acb934b08fdad4c42c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/adm/.android/build-cache/3f8613081eb78b5d3c9d3ab5f0e4a2070ea24c56/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef01b734d9d89338a932928c237c7b741f007af">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b042774dea2e106c74559ea5a2bf899b8194d1a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/adm/smokeproject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="979806639c6621930bcfa607566035ef1e0b8009">
+        <dex dex="/Users/adm/smokeproject/app/build/intermediates/pre-dexed/debug/instant-run_776cd1917aa384ae4eeef4db4694654c6a5a1741.jar" />
+    </item>
+
+</items>

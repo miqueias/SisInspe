@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/vermelho"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_sis_nav"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:text="Olá "
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/vermelho"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvOla" />
+
+        <TextView
+            android:text="Antonio Neto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vermelhodois"
+            android:id="@+id/tvNomeBV"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:textSize="12sp"
+        android:text="Ter.18/10/16" />
+
+    <TextView
+        android:id="@+id/tvDescRota"
+        android:layout_marginLeft="19dp"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:text="Descrição da rota: Leste/oeste" />
+
+    <TextView
+        android:id="@+id/tvTipoRota"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:text="Tipo rota: Manhã" />
+
+    <TextView
+        android:id="@+id/tvEscala"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:text="Escala atual: 8/5" />
+
+    <Button
+        android:text="VISTORIA/APOIO"
+        android:layout_marginTop="20dp"
+        android:background="@color/vermelho"
+        android:padding="16dp"
+        android:drawablePadding="-49dp"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_vistoria_apoio"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="17sp"
+        android:id="@+id/btnNovaVistoria" />
+
+    <Button
+        android:text="VISTORIAS REALIZADAS"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:drawableStart="@drawable/ic_vistoria_realizada"
+        android:background="@color/vermelho"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:id="@+id/btnVistoriaRealizada" />
+
+    <Button
+        android:text="VALIDAR PLACA"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:drawablePadding="-49dp"
+        android:drawableStart="@drawable/ic_validar_placa"
+        android:background="@color/vermelho"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:id="@+id/btnPlaca" />
+
+    <Button
+        android:text="SAIR"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:drawablePadding="-49dp"
+        android:drawableStart="@drawable/ic_sair"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:id="@+id/btnSair" />
+
+</LinearLayout>

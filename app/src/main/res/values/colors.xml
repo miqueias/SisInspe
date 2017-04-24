@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#B22222</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="yellow">#FFCC00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#006400</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="grey_claro">#F5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FFA500</color>
+    <color name="transparent">#00000000</color>
+
+    //App
+    <color name="vermelho">#e4002b</color>
+    <color name="vermelhodois">#e6e4002b</color>
+    <color name="cinza">#6a6c6f</color>
+    <color name="cinza_card">#acacac</color>
+    <color name="vermelho_card">#B22222</color>
+    <color name="bg_lista">#F6EDEF</color>
+
+
+    <!--<color name="colorAccent">#FFFAFA</color>-->
+</resources>

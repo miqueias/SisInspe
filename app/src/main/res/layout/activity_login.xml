@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:baselineAligned="false">
+
+    <TextView
+        android:text="Gestão de Inspeção"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tvGestao" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="29dp"
+        android:layout_gravity="center"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sis_logo"
+            android:id="@+id/imageView"
+            android:paddingRight="10dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/div_longo"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="Odebretch Ambiente Unidade:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/tvOdebretch" />
+
+    <TextView
+        android:text="Pernambuco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/tvEstado" />
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Login"
+        android:textSize="13sp"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="55dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:id="@+id/etLogin"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_login"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:drawablePadding="8dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:id="@+id/etSenha"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_senha" />
+
+    <Button
+        android:text="ENTRAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        android:background="@drawable/ic_btn_entrar_ativo"
+        android:id="@+id/btnEntrar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/odebrecht_logo"
+        android:layout_marginTop="50dp"
+        android:id="@+id/imageView3" />
+</LinearLayout>
