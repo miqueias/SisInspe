@@ -131,14 +131,21 @@ public class BaseRequester extends AsyncTask<BaseRequester, Object, String> {
             if (method == Method.POST) {
 
 
-                //HttpURLConnection conn = null;
-                HttpsURLConnection conn = null;
-                conn = (HttpsURLConnection) url.openConnection();
-                //HTTPS
-                conn.setSSLSocketFactory(generateCertificate(context).getSocketFactory());
+                /*
+                HTTP
+                 */
+                HttpURLConnection conn = null;
+                conn = (HttpURLConnection) url.openConnection();
+
+                /*
+                HTTPS
+                 */
+                //HttpsURLConnection conn = null;
+                //conn = (HttpsURLConnection) url.openConnection();
+                //conn.setSSLSocketFactory(generateCertificate(context).getSocketFactory());
 
                 byte[] bytes = null;
-                conn = (HttpsURLConnection) url.openConnection();
+
 
                 String body = "";
                 if (gsonString != null) {
@@ -147,6 +154,7 @@ public class BaseRequester extends AsyncTask<BaseRequester, Object, String> {
 
                 bytes = body.getBytes();
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+                //conn.setRequestProperty("Content-Type", "application/json");
 
                 conn.setReadTimeout(10000);
                 conn.setConnectTimeout(15000);
@@ -226,7 +234,7 @@ public class BaseRequester extends AsyncTask<BaseRequester, Object, String> {
         InputStream caInput = null;
         try {
 
-            caInput = context.getAssets().open("cert.crt");
+            caInput = context.getAssets().open("certificado.crt");
             //caInput = new BufferedInputStream(new FileInputStream(context.getAssets().open("47b83fbefd5092a.crt")));
         } catch (FileNotFoundException e) {
             e.printStackTrace();

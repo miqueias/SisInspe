@@ -27,6 +27,7 @@ import pojo.Problemas;
 import pojo.ProblemasCheckList;
 import pojo.Regional;
 import pojo.Rota;
+import pojo.Substancia;
 import pojo.TipoRota;
 import pojo.Vistoria;
 
@@ -126,6 +127,22 @@ public class UserRequester {
                 arrayListMotivos.add(motivo);
             }
             auth.setMotivoArrayList(arrayListMotivos);
+
+            //substancias
+            JSONArray jsonArraySubstancias = jsonObjectDados.getJSONArray("substancias");
+            ArrayList<Substancia> arrayListSubstancias = new ArrayList<Substancia>();
+
+            for (int i = 0; i < jsonArraySubstancias.length(); i++) {
+
+                JSONObject jsonObjectSubstancia = jsonArraySubstancias.getJSONObject(i);
+
+                Substancia substancia = new Substancia();
+                substancia.setId(Integer.parseInt(jsonObjectSubstancia.get("id").toString()));
+                substancia.setDescricao(jsonObjectSubstancia.get("descricao").toString());
+
+                arrayListSubstancias.add(substancia);
+            }
+            auth.setSubstanciaArrayList(arrayListSubstancias);
 
             //cargo
             JSONObject jsonObjectCargo = jsonObjectDados.getJSONObject("cargo");

@@ -25,6 +25,7 @@ public final class Auth {
     private String mensagemErroApi;
     private String login;
     private String senha;
+    private ArrayList<Substancia> substanciaArrayList;
 
     public Auth() {
 
@@ -164,5 +165,13 @@ public final class Auth {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public ArrayList<Substancia> getSubstanciaArrayList() {
+        return substanciaArrayList;
+    }
+
+    public void setSubstanciaArrayList(ArrayList<Substancia> substanciaArrayList) {
+        this.substanciaArrayList = substanciaArrayList;
     }
 }

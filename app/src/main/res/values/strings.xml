@@ -13,6 +13,13 @@
         <item>Motivo</item>
         <item>Motivo</item>
     </string-array>
+
+    <string-array name="array_substancia">
+        <item>Substancia</item>
+        <item>Substancia</item>
+        <item>Substancia</item>
+    </string-array>
+
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_motor_bomba">MotorBombaActivity</string>
 </resources>

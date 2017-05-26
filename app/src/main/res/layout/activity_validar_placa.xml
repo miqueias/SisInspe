@@ -28,6 +28,16 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar">
 
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/spinner"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:entries="@array/array_name"
+            style="@style/SpinnerTheme" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

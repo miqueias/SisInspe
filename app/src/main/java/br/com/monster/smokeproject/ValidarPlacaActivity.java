@@ -15,16 +15,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
 import pojo.Auth;
+import pojo.Motivo;
+import pojo.Substancia;
 import request.BaseRequester;
 import request.Method;
 import request.Requester;
@@ -37,7 +42,7 @@ public class ValidarPlacaActivity extends AppCompatActivity {
     private String minhaPlaca;
     private EditText etPlaca;
     private Snackbar snackbar;
-    private Auth auth;
+    private Auth auth = Auth.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +59,19 @@ public class ValidarPlacaActivity extends AppCompatActivity {
         etPlaca = (EditText) findViewById(R.id.etPlaca);
         etPlaca.addTextChangedListener(Mask.insert("###-####", etPlaca));
 
+        ArrayList<String> stringArrayList = new ArrayList<>();
+        final ArrayList<Substancia> substanciaArrayList;
+
+        substanciaArrayList = auth.getSubstanciaArrayList();
+
+        for (int i = 0; i < substanciaArrayList.size(); i++) {
+            stringArrayList.add(substanciaArrayList.get(i).getDescricao());
+        }
+        ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(ValidarPlacaActivity.this, android.R.layout.simple_spinner_item, stringArrayList);
+        spinnerArrayAdapter.setDropDownViewResource( android.R.layout.simple_spinner_dropdown_item );
+
+        final Spinner spinner = (Spinner)findViewById(R.id.spinner);
+        spinner.setAdapter(spinnerArrayAdapter);
 
         linearLayout = (LinearLayout) findViewById(R.id.linearLayout);
         Button btnValidar = (Button) findViewById(R.id.btnValidar);
@@ -68,12 +86,12 @@ public class ValidarPlacaActivity extends AppCompatActivity {
                     imm.hideSoftInputFromWindow(etPlaca.getWindowToken(), 0);
                     minhaPlaca = etPlaca.getText().toString();
 
-                    auth = Auth.getInstance();
                     final JSONObject jsonPut = new JSONObject();
 
                     try {
                         jsonPut.put("placa", minhaPlaca);
                         jsonPut.put("operador_id", auth.getOperador().getId());
+                        jsonPut.put("substancia_id", substanciaArrayList.get(spinner.getSelectedItemPosition()).getId());
                         jsonPut.put("token", auth.getToken());
 
                         BaseRequester baseRequester = new BaseRequester();
