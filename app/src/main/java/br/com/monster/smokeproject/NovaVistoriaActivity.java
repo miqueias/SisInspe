@@ -1148,7 +1148,7 @@ public class NovaVistoriaActivity extends AppCompatActivity {
         image.compress(compressFormat, quality, byteArrayOS);
         byte[] byteFormat = byteArrayOS.toByteArray();
         return Base64.encodeToString(byteFormat, Base64.NO_WRAP);
-}
+    }
 
     public static Bitmap decodeBase64(String input) {
         byte[] decodedBytes = Base64.decode(input, 0);

@@ -26,6 +26,7 @@ import pojo.Auth;
 import pojo.ConjuntoMotorBomba;
 import pojo.Problemas;
 import pojo.ProblemasCheckList;
+import pojo.Vistoria;
 import util.DividerItemDecoration;
 
 public class MotorBombaActivity extends AppCompatActivity {
@@ -169,7 +170,17 @@ public class MotorBombaActivity extends AppCompatActivity {
                     if (auth.getVistoriasArrayList().size() == 0) {
                         conjuntoMotorBomba.setEstacaoElevatoriaId(estacaoElevatoria);
                     } else {
-                        conjuntoMotorBomba.setEstacaoElevatoriaId(auth.getVistoriasArrayList().get(idVistoria).getEstacaoElevatoriaId());
+
+                        Vistoria vistoriaTemp;
+
+                        for (int i = 0; i < auth.getVistoriasArrayList().size(); i++) {
+                            if (idVistoria == auth.getVistoriasArrayList().get(i).getId()) {
+                                vistoriaTemp = auth.getVistoriasArrayList().get(i);
+                                //conjuntoMotorBomba.setEstacaoElevatoriaId(auth.getVistoriasArrayList().get(idVistoria).getEstacaoElevatoriaId());
+                                conjuntoMotorBomba.setEstacaoElevatoriaId(vistoriaTemp.getEstacaoElevatoriaId());
+                                break;
+                            }
+                        }
                     }
 
                     conjuntoMotorBomba.setId(idCmb);

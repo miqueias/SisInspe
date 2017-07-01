@@ -44,7 +44,9 @@ public class GerenciadorTxt {
             br.close();
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+            criarDireotorioTxt(new File(Util.VISTORIA_FOLDER));
+            criarArquivoTxt(new File((Util.VISTORIA_FILE)));
         } catch (IOException e) {
             e.printStackTrace();
         }
